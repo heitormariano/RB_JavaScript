@@ -11,8 +11,6 @@ Por meio do DOM (ou API DOM) é possível acessar/manipular as informações de um d
 
 Raizes do JavaScript: Java, Self, Scheme e Perl
 
-Em JavaScript não existe o conceito de "classe". A linguagem possibilita a criação direta de objetos.
-
 O nome oficial do JavaScript é ECMAScript
 
 Características da linguagem:
