@@ -1,0 +1,35 @@
+Linguagem bastante popular
+
+Linguagem que está presente nos navegadores web
+Também existem API's de TV's da Samsung que utilizam JavaScript, plugins do Fotoshop também usam Javascript, entre outros exemplos.
+
+DOM --> Document Object Model
+
+Por meio do DOM (ou API DOM) é possível acessar/manipular as informações de um documento
+
+Raizes do JavaScript: Java, Self, Scheme e Perl
+
+Em JavaScript não existe o conceito de "classe". A linguagem possibilita a criação direta de objetos.
+
+O nome oficial do JavaScript é ECMAScript
+
+Características da linguagem:
+1-Interpretada
+2-Orientada a objetos baseada em protótipos
+3-Tipagem fraca e dinâmica
+4-Funções de primeira classe(funções que podem ser atribuídas para variáveis, passadas por parâmetros)
+5-A linguagem não possui suporte a multi-thread. Os intepretadores, por sua vez, podem implementar formas de garantir isso.
+
+Informações das versões mais atuais(fonte:W3School)
+2015	ECMAScript 6	Added classes and modules.
+2016	ECMAScript 7	Added exponential operator (**).Added Array.prototype.includes.
+ 
+
+Variáveis
+declaração: var <nome_variavel>
+
+Nome da variável por ter: 
+letra, $(reservado para frameworks, bibliotecas) ou _ (sinalizar o uso de membros "privados" em funções)
+Após a primeira letra podem ter números
+Começam com letra minúscula(convenção camelCase)
+sAs variáveis são case-sensitive
