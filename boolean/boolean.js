@@ -1,6 +1,5 @@
 //usando a dupla negação (!!) para revelar o tipo booleano de certos valores
 
-
 console.log(!!0);
 console.log(!!NaN);
 console.log(!!'');
