@@ -9,7 +9,7 @@ console.log('Retorando o tamanho da String: ' + nome.length);
 nome = 'Heitor Teste';
 console.log('Realizando a substituição de Strings: ' + nome.replace('Teste', 'Mariano'));
 
-var materias = 'Portugues;Matematica;Ingles;Fisica;Quimica';
+var materias = 'Portugues;Matematica;Ingles;Fisica;Quimica,Historia,Geografia';
 console.log('Dividindo a Strng: ' + materias.split(';'));
 
 var frase = 'Frase de teste para aprender JS';
