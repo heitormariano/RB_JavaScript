@@ -34,7 +34,7 @@ console.log(pessoa);
 console.log('atribuindo null para a propriedade idade');
 pessoa.idade = null;
 console.log(pessoa);
-for (var propriedade in pessoa){
+for (var propriedade in pessoa) {
   console.log(propriedade);
 }
 console.log(pessoa.nome);
