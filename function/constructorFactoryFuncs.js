@@ -41,7 +41,6 @@ var Fruta = function(nome, cor, forma) {
   this.nome = nome;
   this.cor = cor;
   this.forma = forma;
-
   this.descrever = function() {
     return 'A fruta ' + this.nome + ' apresenta a cor ' + this.cor + ' e a forma ' + this.forma;
   };

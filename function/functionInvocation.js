@@ -2,6 +2,7 @@
 var somarTresNums = function(a, b, c) {
   return a + b + c;
 };
+
 console.log(somarTresNums(1, 2, 3));
 
 // Passing  function as a parameter
@@ -30,6 +31,7 @@ var helloWorld = function() {
     return 'Hello World!';
   };
 };
+
 console.log(helloWorld); // [Function: helloWorld]
 console.log(helloWorld()); // [Function]
 console.log(helloWorld()()); // Hello World!
@@ -48,6 +50,7 @@ var pessoa = {
     return this.nome + " " + this.sobrenome;
   }
 };
+
 console.log('Idade pessoa: ' + pessoa.getIdade());
 console.log('Nome completo pessoa: ' + pessoa.getNomeCompleto());
 
@@ -90,6 +93,7 @@ var vendedor = {
   salarioBase: 1200,
   calcularSalario: calcularSalario
 };
+
 console.log('Salario Final: ' + vendedor.calcularSalario(1000));
 console.log('Salario Final: ' + calcularSalario.call(vendedor, 1000)); // functionName(scope, argument01, argument02...)
 console.log('Salario Final: ' + calcularSalario.apply(vendedor, [1000])); // functionName(scope, [argument01, argument02...])
