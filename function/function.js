@@ -36,11 +36,7 @@ function multiplicar(a, b) {
 // It not works
 //console.log(divisao(10, 5));
 var divisao = function(a, b) {
-  if (b != 0) {
-    return a / b;
-  } else {
-    return 'Divisão por zero. Operação inválida';
-  }
+  return a / b; // JavaScript allows division by zero (Ex.: 10 / 0. Result: Infinity)
 };
 //It Works
 console.log(divisao(10, 5));
