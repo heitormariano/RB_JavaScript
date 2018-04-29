@@ -2,7 +2,6 @@
 var somarTresNums = function(a, b, c) {
   return a + b + c;
 };
-
 console.log(somarTresNums(1, 2, 3));
 
 // Passing  function as a parameter

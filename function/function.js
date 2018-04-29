@@ -11,7 +11,6 @@ console.log('Soma:' + resultadoSoma);
 var soma = function(a, b) {
   return a + b;
 };
-
 console.log(soma);
 console.log('Nova Soma: ' + soma(10, 30));
 
