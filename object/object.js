@@ -15,7 +15,7 @@ var professor = {
 console.log('Dados Professor');
 console.log('Nome: ' + professor["nome"]);
 console.log('Sobrenome: ' + professor["sobrenome"]);
-console.log('Intituição: ' + professor["instituicao"]);
+console.log('Instituição: ' + professor["instituicao"]);
 
 //Using lists
 var lista = [pessoa, professor];
@@ -44,7 +44,7 @@ for (var elem in lista) {
 var carro = {};
 carro["cor"] = "vermelho";
 carro["ano de fabricacao"] = 2018;
-carro["Marca"] = "Ford";
+carro["marca"] = "Ford";
 carro["modelo"] = "Ka Sedan";
 
 for (var prop in carro) {

@@ -7,7 +7,7 @@ resultadoSoma = somar(10, 20);
 console.log(somar);
 console.log('Soma:' + resultadoSoma);
 
-//function  expression
+// function  expression
 var soma = function(a, b) {
   return a + b;
 };
@@ -15,14 +15,14 @@ var soma = function(a, b) {
 console.log(soma);
 console.log('Nova Soma: ' + soma(10, 30));
 
-// Named Function Declaration
+// Named Function Expression
 var subtracao = function subtracao(a, b) {
   return a - b;
 };
 
 console.log('Resultado Subtração: ' + subtracao(20, 10));
 
-// The difference between function declaration and named function expression
+// The difference between function declaration and function expression
 // The function declaration is loaded before code interpretation. Therefore the invocation order DOES NOT difference
 // The function expression is load during the code interpretation. Therefore the invocation order does difference
 
